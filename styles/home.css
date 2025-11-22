@@ -1,0 +1,321 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)),
+                url('../images/hero-bg.jpg') center/cover;
+    color: var(--light-text);
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Content Grid */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem 2rem;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+/* Events Card */
+.events-list {
+    list-style: none;
+}
+
+.events-list li {
+    padding: 1rem;
+    border-left: 4px solid var(--secondary-color);
+    background-color: var(--light-bg);
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.events-list strong {
+    display: block;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.event-date {
+    display: block;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.events-list p {
+    margin: 0;
+    color: var(--dark-text);
+}
+
+/* Weather Card */
+#weather-content {
+    display: grid;
+    gap: 1.5rem;
+}
+
+#current-weather {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+.temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.weather-desc {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+    text-transform: capitalize;
+}
+
+#forecast-container h3 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.forecast-day {
+    background-color: var(--light-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.forecast-day .day-name {
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.forecast-day .day-temp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin: 0.5rem 0;
+}
+
+.forecast-day .day-desc {
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.weather-attribution {
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Spotlights */
+.spotlight-intro {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.spotlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.spotlight-member {
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.spotlight-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.spotlight-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.spotlight-member h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.spotlight-tagline {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.spotlight-info {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.spotlight-info p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.spotlight-info strong {
+    color: var(--primary-color);
+}
+
+.spotlight-member .membership-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.membership-badge.gold {
+    background-color: var(--gold);
+    color: var(--dark-text);
+}
+
+.membership-badge.silver {
+    background-color: var(--silver);
+    color: var(--dark-text);
+}
+
+/* About Card */
+.about-card p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.about-card .btn {
+    margin-top: 1rem;
+}
+
+/* Tablet Styles */
+@media (min-width: 640px) {
+    .content-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .spotlights-card,
+    .about-card {
+        grid-column: 1 / -1;
+    }
+
+    .forecast-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .content-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .events-card {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    .weather-card {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .spotlights-card {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+
+    .about-card {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .spotlights-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 639px) {
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .temperature {
+        font-size: 2.5rem;
+    }
+
+    .spotlights-grid {
+        grid-template-columns: 1fr;
+    }
+}

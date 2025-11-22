@@ -5,10 +5,11 @@
     "email": "info@techsolutions.com",
     "phone": "800-555-1234",
     "website": "https://techsolutions.com",
-    "image": "images/techSolutionsInc.png",
+    "image": "images/techSolutions.png",
     "membershipLevel": 3,
     "industry": "Technology",
-    "founded": 2015
+    "founded": 2015,
+    "address": "456 Tech Park Drive, Innovation District"
   },
   {
     "name": "Green Valley Nursery",
@@ -19,7 +20,8 @@
     "image": "images/greenValleyNurse.png",
     "membershipLevel": 2,
     "industry": "Agriculture",
-    "founded": 2008
+    "founded": 2008,
+    "address": "789 Garden Lane, North Coast"
   },
   {
     "name": "Downtown Café & Bistro",
@@ -30,7 +32,8 @@
     "image": "images/downTownCafe.png",
     "membershipLevel": 1,
     "industry": "Food & Beverage",
-    "founded": 2012
+    "founded": 2012,
+    "address": "123 Main Street, Downtown"
   },
   {
     "name": "Citywide Logistics",
@@ -41,7 +44,8 @@
     "image": "images/cityWideLogistics.png",
     "membershipLevel": 3,
     "industry": "Transportation",
-    "founded": 2005
+    "founded": 2005,
+    "address": "321 Industrial Blvd, Port District"
   },
   {
     "name": "Wellness Center & Spa",
@@ -52,7 +56,8 @@
     "image": "images/wellnessCenternSpa.png",
     "membershipLevel": 2,
     "industry": "Health & Wellness",
-    "founded": 2018
+    "founded": 2018,
+    "address": "555 Serenity Way, Wellness Plaza"
   },
   {
     "name": "Premier Auto Sales",
@@ -63,7 +68,8 @@
     "image": "images/premierAutoSales.png",
     "membershipLevel": 2,
     "industry": "Automotive",
-    "founded": 2010
+    "founded": 2010,
+    "address": "888 Auto Mile, North Coast"
   },
   {
     "name": "Mountain View Realty",
@@ -74,7 +80,8 @@
     "image": "images/mountainViewRealty.png",
     "membershipLevel": 1,
     "industry": "Real Estate",
-    "founded": 2016
+    "founded": 2016,
+    "address": "234 Property Lane, Coastal Heights"
   },
   {
     "name": "Creative Design Studio",
@@ -85,6 +92,7 @@
     "image": "images/creativeDesignStudio.png",
     "membershipLevel": 1,
     "industry": "Design & Marketing",
-    "founded": 2019
+    "founded": 2019,
+    "address": "567 Creative Court, Arts District"
   }
 ]
