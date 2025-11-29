@@ -1,62 +1,89 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>North Coast — Directory</title>
-<meta name="description" content="Business directory for the North Coast chamber">
-<link rel="stylesheet" href="styles/directory.css">
-<link rel="stylesheet" href="styles/small.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>North Coast — Directory</title>
+  <meta name="description" content="Business directory for the North Coast chamber">
+  <link rel="icon" href="images/logo.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/directory.css">
 </head>
+
 <body>
-<body>
-<header class="site-header">
-  <div class="header-container">
-    <div class="brand">
-      <img src="images/logo.png" alt="Timbuktu Chamber Of Commerce" class="logo-img">
-      <div class="site-name">Timbuktu Chamber Of Commerce</div>
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand">
+        <img src="images/logo.png" alt="Timbuktu Chamber Of Commerce" class="logo-img">
+        <div class="site-name">Timbuktu Chamber Of Commerce</div>
+      </div>
+      <button id="menu-toggle" aria-label="Toggle navigation menu">☰</button>
     </div>
-    <button id="menu-toggle" aria-label="Toggle navigation menu">☰</button>
-  </div>
 
-  <nav>
-    <ul id="nav-menu">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="discover.html">Discover</a></li>
-      <li><a href="directory.html">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
-    </ul>
-  </nav>
-</header>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
-<h1>Directory</h1>
+  <main>
+    <h1>Directory</h1>
 
+    <div class="view-controls">
+      <button id="grid-view" class="view-btn active">Grid</button>
+      <button id="list-view" class="view-btn">List</button>
+    </div>
 
-<div class="view-controls">
-<button id="grid-view" class="view-btn active">Grid</button>
-<button id="list-view" class="view-btn">List</button>
-</div>
+    <section id="members-container" class="grid-view">
+      <!-- Members injected here -->
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Contact Information</h3>
+        <p>North Coast Business Alliance</p>
+        <p>123 Business Ave, Suite 100</p>
+        <p>Coastal City, NC 12345</p>
+        <p>Email: info@northcoastalliance.org</p>
+        <p>Phone: (555) 123-4567</p>
+      </div>
 
-<section id="members-container" class="grid-view">
-<!-- Members injected here -->
-</section>
-</main>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </div>
 
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">🐦</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+    </div>
 
-<footer>
-<div class="footer-container">
-<div class="footer-section">
-<h3>Contact</h3>
-<p>North Coast Business Alliance</p>
-<p>&copy; <span id="copyright-year"></span></p>
-<p id="last-modified"></p>
-</div>
-</div>
-</footer>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year"></span> North Coast Business Alliance | All Rights Reserved</p>
+      <p>WDD 231 Chamber Project | <span id="student-name">Your Name</span></p>
+      <p id="last-modified">Last Modified: </p>
+    </div>
+  </footer>
 
-
-<script src="scripts/directory.js" defer></script>
+  <script src="scripts/base.js" defer></script>
+  <script src="scripts/directory.js" defer></script>
 </body>
+
 </html>

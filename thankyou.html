@@ -4,12 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>North Coast — Discover</title>
-    <meta name="description" content="Discover North Coast: history, demographics, and attractions">
+    <title>North Coast — Thank You</title>
+    <meta name="description" content="Thank you for joining the North Coast Business Alliance">
     <link rel="icon" href="images/logo.ico">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/join.css">
 </head>
 
 <body>
@@ -25,7 +24,7 @@
         <nav>
             <ul id="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html" class="active">Discover</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
@@ -33,33 +32,24 @@
     </header>
 
     <main>
-        <h1>Discover North Coast</h1>
-        <section class="card">
-            <h2>History</h2>
-            <p>North Coast is a coastal region known for its fishing, tourism, and friendly business community. (You can
-                replace this paragraph with real/local content.)</p>
-        </section>
+        <h1>Thank You for Joining!</h1>
 
+        <div class="join-container">
+            <section class="form-section">
+                <h2>Application Received</h2>
+                <p>We have received your application. Here are the details you submitted:</p>
 
-        <section class="card">
-            <h2>Demographics</h2>
-            <p>Population: 45,000 (example)</p>
-            <p>Major industries: tourism, agriculture, services</p>
-        </section>
+                <div id="submission-details" class="submission-details">
+                    <!-- Details will be injected here -->
+                </div>
 
-
-        <section class="card gallery">
-            <h2>Photo Montage</h2>
-            <div class="gallery-grid">
-                <img src="images/hero1.jpg" alt="North Coast beach" loading="lazy">
-                <img src="images/hero2.jpg" alt="Downtown" loading="lazy">
-                <img src="images/hero3.jpg" alt="Local market" loading="lazy">
-            </div>
-        </section>
+                <a href="index.html" class="submit-btn"
+                    style="text-align: center; display: inline-block; text-decoration: none;">Return Home</a>
+            </section>
+        </div>
     </main>
 
-
-    <footer class="site-footer">
+    <footer>
         <div class="footer-container">
             <div class="footer-section">
                 <h3>Contact</h3>
@@ -70,7 +60,7 @@
         </div>
     </footer>
 
-
+    <script src="scripts/thankyou.js" defer></script>
     <script src="scripts/base.js" defer></script>
 </body>
 

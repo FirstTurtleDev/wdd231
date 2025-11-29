@@ -1,15 +1,3 @@
-// Footer Information
-document.getElementById('copyright-year').textContent = new Date().getFullYear();
-document.getElementById('last-modified').textContent = document.lastModified;
-
-// Mobile Menu Toggle
-const menuToggle = document.getElementById('menu-toggle');
-const navMenu = document.getElementById('nav-menu');
-
-menuToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('open');
-});
-
 // View Toggle
 const gridViewBtn = document.getElementById('grid-view');
 const listViewBtn = document.getElementById('list-view');
@@ -43,15 +31,15 @@ async function getMembers() {
 
 function displayMembers(members) {
     membersContainer.innerHTML = '';
-    
+
     members.forEach(member => {
         const card = document.createElement('div');
         card.classList.add('member-card');
-        
+
         // Determine membership level text
         let membershipLevel = 'Member';
         let membershipClass = 'member';
-        
+
         if (member.membershipLevel === 2) {
             membershipLevel = 'Silver Member';
             membershipClass = 'silver';
@@ -59,7 +47,7 @@ function displayMembers(members) {
             membershipLevel = 'Gold Member';
             membershipClass = 'gold';
         }
-        
+
         card.innerHTML = `
             <div class="image-placeholder">
                 <img src="${member.image}" alt="${member.name} logo" loading="lazy">
@@ -77,7 +65,7 @@ function displayMembers(members) {
             </div>
             <span class="membership-badge ${membershipClass}">${membershipLevel}</span>
         `;
-        
+
         membersContainer.appendChild(card);
     });
 }
