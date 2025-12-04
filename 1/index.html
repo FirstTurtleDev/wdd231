@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD231 — Home</title>
+  <meta name="description" content="Course home page for WDD231 — Web Development fundamentals.">
+  <meta name="author" content="Alejandro Vanderhorst">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/large.css">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- JS -->
+  <script src="js/navigation.js" defer></script>
+  <script src="js/date.js" defer></script>
+  <script src="js/course.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.svg" alt="Site logo" class="logo">
+      <span class="author-name">Your Name</span>
+    </div>
+
+    <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu">☰</button>
+
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="final/index.html">Final</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+
+    <section id="welcome">
+      <h2>Welcome</h2>
+      <p>Course home page for WDD231. Use the navigation to reach the Chamber project (Week 2) and Final (Week 6).</p>
+    </section>
+
+    <section id="certificate">
+      <h2>Certificate — Web & Computer Programming</h2>
+
+      <div class="controls">
+        <button id="showAll">All Courses</button>
+        <button id="showWDD">WDD Courses</button>
+        <button id="showCSE">CSE Courses</button>
+      </div>
+
+      <div id="credits">Credits shown: <span id="creditsCount">0</span></div>
+      <div id="coursesContainer" class="cards"></div>
+    </section>
+
+    <section id="resources">
+      <h2>Resources</h2>
+      <p>Links, images, and additional information go here.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+
+    <div class="copyright">
+      <p>&copy; <span id="currentYear"></span> Your Name — Dominican Republic</p>
+      <p id="lastModified">Last modified: </p>
+    </div>
+  </footer>
+</body>
+</html>

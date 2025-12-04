@@ -1,0 +1,110 @@
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+  --accent: #0ea5a4;
+  --muted: #6b7280;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  padding: 1rem;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.logo {
+  width: 48px;
+  height: auto;
+}
+
+.author-name {
+  font-weight: 600;
+}
+
+.menu-toggle {
+  background: none;
+  border: 1px solid #ddd;
+  padding: .25rem .5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primary-nav {
+  display: none;
+}
+
+.primary-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  color: var(--text);
+  padding: .4rem .6rem;
+  border-radius: 6px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  padding: .75rem;
+  border-radius: 8px;
+}
+
+.card.completed {
+  background: linear-gradient(90deg, rgba(14,165,164,0.08), rgba(14,165,164,0.03));
+  border-color: var(--accent);
+}
+
+.controls {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin-top: .5rem;
+}
+
+.controls button {
+  padding: .4rem .6rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
