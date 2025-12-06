@@ -5,7 +5,7 @@
         "email": "contact@nctech.com",
         "phone": "(555) 123-4567",
         "website": "https://nctech.com",
-        "image": "images/logo.png",
+        "image": "images/techSolutions.png",
         "membershipLevel": 3
     },
     {
@@ -14,7 +14,7 @@
         "email": "info@coastalrealty.com",
         "phone": "(555) 987-6543",
         "website": "https://coastalrealty.com",
-        "image": "images/logo.png",
+        "image": "images/mountainViewRealty.png",
         "membershipLevel": 2
     },
     {
@@ -23,7 +23,7 @@
         "email": "hello@harborview.com",
         "phone": "(555) 555-0199",
         "website": "https://harborviewcafe.com",
-        "image": "images/logo.png",
+        "image": "images/downTownCafe.png",
         "membershipLevel": 1
     },
     {
@@ -32,16 +32,16 @@
         "email": "support@seasidelogistics.com",
         "phone": "(555) 444-3322",
         "website": "https://seasidelogistics.com",
-        "image": "images/logo.png",
+        "image": "images/cityWideLogistics.png",
         "membershipLevel": 3
     },
     {
         "name": "Blue Wave Marketing",
-        "tagline": "strategies for Growth",
+        "tagline": "Strategies for Growth",
         "email": "growth@bluewave.com",
         "phone": "(555) 777-8888",
         "website": "https://bluewavemarketing.com",
-        "image": "images/logo.png",
+        "image": "images/creativeDesignStudio.png",
         "membershipLevel": 2
     },
     {
@@ -50,7 +50,7 @@
         "email": "health@community.org",
         "phone": "(555) 222-1111",
         "website": "https://communityhealth.org",
-        "image": "images/logo.png",
+        "image": "images/greenValleyNurse.png",
         "membershipLevel": 1
     },
     {
@@ -59,7 +59,7 @@
         "email": "legal@maritimelaw.com",
         "phone": "(555) 666-9999",
         "website": "https://maritimelaw.com",
-        "image": "images/logo.png",
+        "image": "images/premierAutoSales.png",
         "membershipLevel": 3
     }
 ]
