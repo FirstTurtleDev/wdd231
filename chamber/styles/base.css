@@ -83,6 +83,7 @@ a:hover {
 nav {
     width: 100%;
     background-color: var(--primary-color);
+    color: var(--light-text);
 }
 
 #nav-menu {
