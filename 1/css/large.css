@@ -1,0 +1,16 @@
+@media (min-width: 700px) {
+  body { padding: 2rem; }
+
+  .primary-nav { display: block; }
+  .primary-nav ul {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .menu-toggle { display: none; }
+
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1000px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
