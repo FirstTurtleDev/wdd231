@@ -1,0 +1,65 @@
+[
+    {
+        "name": "North Coast Technologies",
+        "tagline": "Innovating the Future",
+        "email": "contact@nctech.com",
+        "phone": "(555) 123-4567",
+        "website": "https://nctech.com",
+        "image": "images/logo.png",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Coastal Realty Group",
+        "tagline": "Finding Your Dream Home",
+        "email": "info@coastalrealty.com",
+        "phone": "(555) 987-6543",
+        "website": "https://coastalrealty.com",
+        "image": "images/logo.png",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Harbor View Café",
+        "tagline": "Fresh Coffee & Ocean Views",
+        "email": "hello@harborview.com",
+        "phone": "(555) 555-0199",
+        "website": "https://harborviewcafe.com",
+        "image": "images/logo.png",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Seaside Logistics",
+        "tagline": "Moving Your Business Forward",
+        "email": "support@seasidelogistics.com",
+        "phone": "(555) 444-3322",
+        "website": "https://seasidelogistics.com",
+        "image": "images/logo.png",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Blue Wave Marketing",
+        "tagline": "strategies for Growth",
+        "email": "growth@bluewave.com",
+        "phone": "(555) 777-8888",
+        "website": "https://bluewavemarketing.com",
+        "image": "images/logo.png",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Community Health Center",
+        "tagline": "Care You Can Trust",
+        "email": "health@community.org",
+        "phone": "(555) 222-1111",
+        "website": "https://communityhealth.org",
+        "image": "images/logo.png",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Maritime Law Associates",
+        "tagline": "Protecting Your Interests",
+        "email": "legal@maritimelaw.com",
+        "phone": "(555) 666-9999",
+        "website": "https://maritimelaw.com",
+        "image": "images/logo.png",
+        "membershipLevel": 3
+    }
+]
