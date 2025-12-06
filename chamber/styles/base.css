@@ -1,11 +1,11 @@
 /* Root Variables */
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --primary-color: #243442;
+    --secondary-color: #0b5fa5;
     --accent-color: #e74c3c;
     --light-bg: #f8f9fa;
     --card-bg: #ffffff;
-    --dark-text: #333333;
+    --dark-text: #222222;
     --light-text: #ffffff;
     --border-color: #dee2e6;
     --gold: #ffd700;
@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--dark-text);
     background-color: var(--light-bg);
@@ -111,6 +111,7 @@ nav {
 #nav-menu li a:hover,
 #nav-menu li a.active {
     background-color: var(--secondary-color);
+    color: #ffffff;
 }
 
 #menu-toggle {
