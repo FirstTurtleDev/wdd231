@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participate | TradeUp Journey</title>
+    <meta name="description" content="Offer a trade or contact me to be a part of the challenge.">
+    <meta name="author" content="Alejandro">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Participate - TradeUp Journey">
+    <meta property="og:description" content="Got something to trade? Let me know!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero-social.jpg">
+
+    <!-- Fonts & Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="icon" href="favicon.ico">
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>TradeUp Journey</h1>
+        </div>
+        <button id="menu" aria-label="Toggle Menu">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tradelog.html">Trade Log</a></li>
+                <li><a href="participate.html" class="active">Participate</a></li>
+                <li><a href="site-plan.html">Site Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Participate in the Challenge</h2>
+        <p>I am always looking for the next trade. If you have something interesting that is of higher value than my
+            current item, let's talk!</p>
+
+        <form class="participate-form" action="thankyou.html" method="get">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="offer">Item You Are Offering</label>
+            <input type="text" id="offer" name="offer" required>
+
+            <label for="message">Message / Details</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit" class="btn">Send Offer</button>
+        </form>
+        <div id="form-message"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TradeUp Journey | Alejandro | WDD 231</p>
+        <p>
+            <a href="site-plan.html">Site Plan</a> |
+            <a href="attributions.html">Attributions</a> |
+            <a href="https://www.youtube.com/watch?v=placeholder" target="_blank">Video Demonstration</a>
+        </p>
+        <div class="social-links">
+        </div>
+    </footer>
+</body>
+
+</html>

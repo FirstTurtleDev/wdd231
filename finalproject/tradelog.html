@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Log | TradeUp Journey</title>
+    <meta name="description" content="View the complete history of trades, from a paperclip to the final goal.">
+    <meta name="author" content="Alejandro">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Trade Log - TradeUp Journey">
+    <meta property="og:description" content="See all the trades I've made so far.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero-social.jpg">
+
+    <!-- Fonts & Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="icon" href="favicon.ico">
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>TradeUp Journey</h1>
+        </div>
+        <button id="menu" aria-label="Toggle Menu">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tradelog.html" class="active">Trade Log</a></li>
+                <li><a href="participate.html">Participate</a></li>
+                <li><a href="site-plan.html">Site Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Trade Log</h2>
+        <div class="filter-controls">
+            <button id="filter-all" class="btn">All Trades</button>
+            <button id="filter-recent" class="btn">Recent (Last 5)</button>
+        </div>
+        <div id="trade-grid" class="trade-grid">
+            <!-- Dynamic Content Load -->
+            <p>Loading trades...</p>
+        </div>
+    </main>
+
+    <!-- Modal Dialog -->
+    <dialog id="item-modal">
+        <div class="modal-content">
+            <button id="close-modal" aria-label="Close">❌</button>
+            <h3 id="modal-title">Item Name</h3>
+            <img id="modal-image" src="" alt="Item Image" loading="lazy">
+            <p id="modal-desc">Description goes here.</p>
+            <p><strong>Value:</strong> <span id="modal-value"></span></p>
+            <p><strong>Traded For:</strong> <span id="modal-traded"></span></p>
+            <p><strong>Date:</strong> <span id="modal-date"></span></p>
+        </div>
+    </dialog>
+
+    <footer>
+        <p>&copy; 2025 TradeUp Journey | Alejandro | WDD 231</p>
+        <p>
+            <a href="site-plan.html">Site Plan</a> |
+            <a href="attributions.html">Attributions</a> |
+            <a href="https://www.youtube.com/watch?v=placeholder" target="_blank">Video Demonstration</a>
+        </p>
+        <div class="social-links">
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Orange Pencil",
+        "description": "The starting item. A standard orange pencil.",
+        "date": "2025-12-01",
+        "image": "images/pencil.jpg",
+        "value": "$0.01",
+        "traded_for": "Plate"
+    },
+    {
+        "id": 2,
+        "name": "Plate",
+        "description": "A novelty pen shaped like a fish.",
+        "date": "2025-12-05",
+        "image": "images/plate.jpg",
+        "value": "$1.50",
+        "traded_for": "Christmas Decoration"
+    },
+    {
+        "id": 3,
+        "name": "Christmas Decoration",
+        "description": "A unique wooden doorknob with a face.",
+        "date": "2025-12-07",
+        "image": "images/christmas-decoration.jpg",
+        "value": "$5.00",
+        "traded_for": "Kernel One Shaker"
+    },
+    {
+        "id": 4,
+        "name": "Kernel One Shaker",
+        "description": "A shaker with a unique design.",
+        "date": "2025-12-08",
+        "image": "images/shaker.jpg",
+        "value": "$9.00",
+        "traded_for": "Nothing"
+    },
+    {
+        "id": 5,
+        "name": "Future Trade 1 (Goal)",
+        "description": "Looking for something worth $15-20.",
+        "date": "2026-01-01",
+        "image": "images/pencil.jpg",
+        "value": "$20.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 6,
+        "name": "Future Trade 2",
+        "description": "Target: Small electronic device.",
+        "date": "2026-01-15",
+        "image": "images/pencil.jpg",
+        "value": "$40.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 7,
+        "name": "Future Trade 3",
+        "description": "Target: Musical Instrument.",
+        "date": "2026-02-01",
+        "image": "images/pencil.jpg",
+        "value": "$80.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 8,
+        "name": "Future Trade 4",
+        "description": "Target: Vintage Collectible.",
+        "date": "2026-02-15",
+        "image": "images/pencil.jpg",
+        "value": "$150.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 9,
+        "name": "Future Trade 5",
+        "description": "Target: Laptop or Tablet.",
+        "date": "2026-03-01",
+        "image": "images/pencil.jpg",
+        "value": "$300.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 10,
+        "name": "Future Trade 6",
+        "description": "Target: Camera Gear.",
+        "date": "2026-03-15",
+        "image": "images/pencil.jpg",
+        "value": "$500.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 11,
+        "name": "Future Trade 7",
+        "description": "Target: Used Vehicle (Scooter).",
+        "date": "2026-04-01",
+        "image": "images/pencil.jpg",
+        "value": "$800.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 12,
+        "name": "Future Trade 8",
+        "description": "Target: High-end Audio.",
+        "date": "2026-04-15",
+        "image": "images/pencil.jpg",
+        "value": "$1200.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 13,
+        "name": "Future Trade 9",
+        "description": "Target: Trip/Experience.",
+        "date": "2026-05-01",
+        "image": "images/pencil.jpg",
+        "value": "$2000.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 14,
+        "name": "Future Trade 10",
+        "description": "Target: Vehicle (Car).",
+        "date": "2026-06-01",
+        "image": "images/pencil.jpg",
+        "value": "$5000.00",
+        "traded_for": "Pending"
+    },
+    {
+        "id": 15,
+        "name": "Final Goal: House Deposit",
+        "description": "The ultimate goal of the TradeUp Journey.",
+        "date": "2026-12-31",
+        "image": "images/pencil.jpg",
+        "value": "$10000.00",
+        "traded_for": "Goal"
+    }
+]
