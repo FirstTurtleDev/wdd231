@@ -1,6 +1,7 @@
 :root {
     /* Color Palette */
-    --primary-color: #008080;
+    /* Darkened Teal to meet WCAG AA (4.5:1) on #F5F5F5 */
+    --primary-color: #006666;
     /* Teal */
     --secondary-color: #FF7F50;
     /* Coral Orange */
@@ -112,6 +113,15 @@ footer {
     text-align: center;
     padding: var(--space-md);
     margin-top: var(--space-lg);
+}
+
+footer a {
+    color: var(--text-light);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
 }
 
 /* Utility Classes */
